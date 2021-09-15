@@ -1,0 +1,15 @@
+h1{
+    margin: 60px 0 50px 0;
+    text-align: center;
+}
+.home{
+    margin: 20px 60px;
+    padding: 20px 60px;
+    border: black 1px solid;
+    
+}
+.home h3{
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 40px;
+}

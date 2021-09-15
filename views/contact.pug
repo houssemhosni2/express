@@ -1,0 +1,23 @@
+html
+    head
+        title CONTACT
+        style 
+            include contact.css
+    body
+        include navbar.pug
+        div.contact
+            h1 Contact Form 
+            div.form
+                form(action="")
+                    label(for="fname") First Name 
+                    input(type="text", id="fname", placeholder="Your name..")
+                    label(for="lname") Last Name 
+                    input(type="text", id="lname", placeholder="Your last name..")
+                    label(for="country") Country 
+                    select#country
+                        option(value="Tunisia") Tunisia 
+                        option(value="Algeria") Algeria 
+                        option(value="Egypt") Egypt 
+                    label(for="subject") Subject 
+                    textarea#subject(placeholder="Your Message Here..")
+                    input(type="submit", value="Send")  
